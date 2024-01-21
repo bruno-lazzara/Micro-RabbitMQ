@@ -7,4 +7,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="CommandHandlers\" />
+    <Folder Include="Commands\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Micro-RabbitMQ.Domain.Core\Micro-RabbitMQ.Domain.Core.csproj" />
+  </ItemGroup>
+
 </Project>

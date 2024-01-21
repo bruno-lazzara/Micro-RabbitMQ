@@ -7,4 +7,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Micro-RabbitMQ.Domain.Core\Micro-RabbitMQ.Domain.Core.csproj" />
+    <ProjectReference Include="..\Micro-RabbitMQ.Transfer.Domain\Micro-RabbitMQ.Transfer.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
