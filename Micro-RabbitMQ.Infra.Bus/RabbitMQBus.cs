@@ -30,7 +30,7 @@ namespace Micro_RabbitMQ.Infra.Bus
         {
             var factory = new ConnectionFactory()
             {
-                HostName = "loccalhost"
+                HostName = "localhost"
             };
 
             using var connection = factory.CreateConnection();
