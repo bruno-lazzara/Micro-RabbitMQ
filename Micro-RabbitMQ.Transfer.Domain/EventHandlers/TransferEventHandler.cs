@@ -13,10 +13,6 @@ namespace Micro_RabbitMQ.Transfer.Domain.EventHandlers
             _transferRepository = transferRepository;
         }
 
-        public TransferEventHandler()
-        {
-        }
-
         public Task Handle(TransferCreatedEvent eventToHandle)
         {
             var transferLog = new TransferLog()
